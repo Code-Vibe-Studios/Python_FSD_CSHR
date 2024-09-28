@@ -1,0 +1,39 @@
+Suggestion -> Ctrl + Space
+Comment -> Ctrl + /
+Copy a full line and Paste in the next line -> Ctrl+D
+Editor, Console, Project explorer
+
+Variables
+----------------------------
+Names given to values
+Is used to store data or values so that they can be refered or manipulated in the future.
+
+DataTypes: Dynamically typed
+-----------------------------------
+Integers(int) -> negatives, 0, positives
+Decimal(float) -> 0.0,-3.9,6.9
+English(String) -> "" or ''
+Boolean -> True or False
+
+Type Conversion
+----------------------------------------
+converting one variable from one datatype to another datatype
+
+Operators:
+----------------------------------------
+Arithmetic Operators:
++,-,/,*
+
+// -> floor division -> return integer(which is present before the decimal point)
+% -> Modulus -> returns reminder
+** -> Exponentiation/Power
+
+
+
+
+Internal Methods
+--------------------------------------
+print() -> display
+type() -> the data type of the value
+int() -> Tries to convert into an Integer
+input() -> Take value from the user, by default it is always a String
