@@ -10,6 +10,8 @@ Is used to store data or values so that they can be refered or manipulated in th
 
 DataTypes: Dynamically typed
 -----------------------------------
+Primitives -> Single value
+
 Integers(int) -> negatives, 0, positives
 Decimal(float) -> 0.0,-3.9,6.9
 English(String) -> "" or ''
@@ -28,7 +30,68 @@ Arithmetic Operators:
 % -> Modulus -> returns reminder
 ** -> Exponentiation/Power
 
+Comparison(Relational) Operators:
+    End result is always Boolean(True/False)
 
+1. == equal to
+2. != Not equal to
+3. >
+4. <
+5. <=
+6. >=
+
+Logical Operator:
+
+1. AND -> True if both the values are True
+2. OR -> True if one of the value is True
+3. NOT -> True if the value is False
+
+Assignment Operator:
+
+1. =
+2. += Add and assign
+3. -=
+4. *=
+5. /=
+6. %=
+7. //=
+8. **=
+
+Conditional Statements(if condition):
+
+Allow you to control the flow of the program by executing specific block of code. Based on the
+condition
+
+Syntax: -> format to write code
+
+    Simple IF condition
+
+    if CONDITION:
+        Block of code
+   ----------------------------------
+
+   If-ELSE Statements
+
+    if CONDITION:
+        Block of code
+    else:
+        Block of code
+   ----------------------------------
+    if - elif - else Statement
+
+    if CONDITION:
+        block of code
+    elif CONDITION:
+        block of code
+    else:
+        block of code
+-------------------------------------
+    Nested IF Statements:
+        if within another if
+
+    if CONDITION:
+        if CONDITION:
+            block of code
 
 
 Internal Methods
@@ -37,3 +100,4 @@ print() -> display
 type() -> the data type of the value
 int() -> Tries to convert into an Integer
 input() -> Take value from the user, by default it is always a String
+Indentation -> Spacing Tab Space- 4 spaces
