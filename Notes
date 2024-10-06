@@ -3,6 +3,17 @@ Comment -> Ctrl + /
 Copy a full line and Paste in the next line -> Ctrl+D
 Editor, Console, Project explorer
 
+
+
+Internal Methods
+--------------------------------------
+print() -> display
+type() -> the data type of the value
+int() -> Tries to convert into an Integer
+input() -> Take value from the user, by default it is always a String
+Indentation -> Spacing Tab Space- 4 spaces
+range(start, stop) -> generate numbers from start value to stop-1 value
+
 Variables
 ----------------------------
 Names given to values
@@ -94,10 +105,25 @@ Syntax: -> format to write code
             block of code
 
 
-Internal Methods
---------------------------------------
-print() -> display
-type() -> the data type of the value
-int() -> Tries to convert into an Integer
-input() -> Take value from the user, by default it is always a String
-Indentation -> Spacing Tab Space- 4 spaces
+Loops:
+    Loop are used to repeatedly execute a block of code as long as a specific condition is met.
+
+1. FOR loop
+2. WHILE loop
+
+FOR Loop:
+---------------------------------------------
+FOR loop is used to iterate over a sequence.
+
+Syntax:
+
+        for iterator in iterable:
+            block of code
+
+Iterable: if you have multiple objects in one variable when it is a iterable.
+l = [1,2,3,4,5,6]
+
+Continue & Break:
+--------------------------
+Continue -> SKIP
+Break -> STOP
