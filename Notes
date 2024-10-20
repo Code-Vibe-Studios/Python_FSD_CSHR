@@ -2,10 +2,12 @@ Suggestion -> Ctrl + Space
 Comment -> Ctrl + /
 Copy a full line and Paste in the next line -> Ctrl+D
 Editor, Console, Project explorer
+pass -> No operation, placeholder for future code
 
 
 
-Internal Methods
+
+Internal Methods(built-in functions)
 --------------------------------------
 print() -> display
 type() -> the data type of the value
@@ -127,3 +129,43 @@ Continue & Break:
 --------------------------
 Continue -> SKIP
 Break -> STOP
+
+
+
+WHILE Loops:
+--------------------------------------------------------------------------
+
+Syntax:
+    while condition:
+        .................
+        .................
+
+
+
+Functions in Python
+---------------------------------------------------------
+A function is a block of organised, reusable code that performs a specific task.
+
+Types:
+    1. Built-in functions
+    2. User defined functions
+        1. Default function/ No parameter function/ No Args function
+        2. Parameterized Function
+
+Defining a Function:
+-------------------------
+def -> define it is a keyword
+functionName()
+
+Syntax:
+    def function_name():
+        pass
+
+Parameterized Function Syntax:
+    def function_name(parameter):
+        pass
+
+    function_name(parameter)
+
+Local Variable
+Global Variable
