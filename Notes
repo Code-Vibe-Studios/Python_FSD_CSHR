@@ -169,3 +169,18 @@ Parameterized Function Syntax:
 
 Local Variable
 Global Variable
+
+Lambda Functions
+-----------------------------------------------------------------------------------------------------
+small, anonymous -> it will not have def , function name, return type
+
+Recursive Functions:
+------------------------------------------------------------------------------------------------------
+A function that can call itself
+
+
+
+
+List: -> []
+------------------------
+List is a collection of items that are ordered(index), changeable(mutable), and allow duplicate values.
