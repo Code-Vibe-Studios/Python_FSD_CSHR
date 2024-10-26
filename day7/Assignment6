@@ -1,0 +1,5 @@
+1. WAPP that accepts a list of numbers and prints the largest and smallest numbers from the list
+2. WAPP that takes a list of numbers and returns the sum of the even numbers.
+3. WAPP that accepts a list of strings and prints only the strings that contain the letter 'a'
+4. WAPP to reverse the order of elements in a list
+5. WAPP that creates a new list containing only the common elements between two lists

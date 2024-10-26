@@ -1,0 +1,4 @@
+1. Create a tuple of numbers and write a program to find the maximum and minimum elements in the tuple
+2. WAPP to count the occurrence of a specific element in a tuple
+3. Given a tuple with several strings, find the length of each string ans store the results in a new tuple
+4. WAPP to concatenate two tuples and find the length of the resulting tuple

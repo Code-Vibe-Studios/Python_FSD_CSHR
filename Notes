@@ -184,3 +184,65 @@ A function that can call itself
 List: -> []
 ------------------------
 List is a collection of items that are ordered(index), changeable(mutable), and allow duplicate values.
+
+List Operations:
+------------------------------
+Addition operators
+1. append() -> adds an item to the end of the list
+2. insert() -> adds an item at a specific index
+3. extend() -> adds multiple items or another list to the list
+
+Removing Operators:
+1. remove() -> remove the first occurrence of a specific element.
+2. pop() -> remove and return the element at a specific index or the last element if no index is specified
+3. clear() -> removes all the elements from the list
+
+List Functions:
+--------------------------------------
+1. len() -> returns the length of the list
+2. max() -> returns the largest item
+3. min()
+4. sum()
+
+Iterating Over a List:
+
+
+Tuples in python: -> ()
+---------------------------------------------------------------------------------------------------
+Collection of items that are ordered, unchangeable(immutable), and allow duplicate values.
+
+Bank Account
+1. name - T
+2. address - L
+3. DOB - L
+4. Aadhar - T
+5. pan card - T
+6. mobile - L
+7. email - L
+8. account number - T
+9. balance - L
+
+Why Tuple?
+1. Immutability - data integrity
+2. Faster access - index
+
+Creating a tuple
+() - ',' separated
+
+Tuple Ops:
+1. Read
+2. Concatenation
+3. len()
+
+
+Comparing Tuples and list
+
+Feature                   Tuple                       List
+Mutability                Immutable                   Mutable
+Syntax                    ()                          []
+Use Case                  Fixed items                 Dynamic items
+Performance               Faster than list            Slower than tuple
+
+
+Dictionaries in Python:
+-------------------------------------------------------------------------------------------------------
