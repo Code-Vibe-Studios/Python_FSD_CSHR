@@ -244,5 +244,28 @@ Use Case                  Fixed items                 Dynamic items
 Performance               Faster than list            Slower than tuple
 
 
-Dictionaries in Python:
+Dictionaries in Python: -> {key:value}
 -------------------------------------------------------------------------------------------------------
+Collection of unordered ,mutable and no-duplicate keys are allowed key-value pair.
+
+Creating                                                  -> Create
+Accessing -> keys or get()                                -> Retrive
+Adding or updating items                                  -> Update
+remove -> pop(key), popitem(), del keyword,clear()        -> Delete
+CRUD Operations
+
+Dictionary Methods:
+------------------------------
+keys() -> return all the keys in the dictionary in the form of a list
+values() -> return all the values in the dictionary in the form of a list
+items() -> return all the items in the dictionary in the form of a list
+
+
+Looping through Dictionaries:
+---------------------------------
+1. looping through keys
+2. looping through values
+3. looping through both keys & values
+
+Classes and OOPS:
+---------------------------------

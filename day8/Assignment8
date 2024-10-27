@@ -1,0 +1,12 @@
+1. Create a dictionary to store information about a book(title,author,publication year)
+ and add the number of pages later.
+
+2. WAPP to find the value of a given key in a dictionary; if the key does not exist, display an
+appropriate message
+
+3. WAPP that takes a dictionary of student names and scores, then prints only the names of students
+with scores above 80
+
+4. Merge two dictionaries and print the updated dictionary
+
+5. WAPP to count the occurrences of each character in a string using a dictionary.
