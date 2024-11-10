@@ -1,0 +1,39 @@
+1. Create a base class Shape with method area() that returns the area. Then, create subclasses Circle,
+Rectangle, Triangle that inherit from Shape and override the area() method to return the area for each shape.
+Use properties like radius, length, width, height where ever applicable
+
+2. Create a base class Employee with properties name, id, salary. Add a method display_details() that prints
+the employee details. Create a subclass Manager that inherits from Employee and has an additional property department.
+Override the display_details() in Manager to include the department information.
+
+3. Define a base class Animal with a method speak() that prints a generic message. Then create subclasses
+Dog, Cat, Bird each overriding the speak() method with their respective sounds
+
+4. Create a base class Vehicle with methods start() and stop(). Create a subclass Car that
+inherits from Vehicle and adds a drive() method. Demonstrate creating a Car object and calling start(),
+ drive(), and stop() methods.
+
+5. Create a base class BankAccount with attributes account_number and balance, and methods deposit()
+and withdraw(). Create subclasses SavingsAccount and CheckingAccount, each with an additional method:
+calculate_interest() for SavingsAccount and apply_fees() for CheckingAccount.
+
+6. Create a base class LibraryItem with attributes title and author. Create subclasses Book, Magazine,
+and DVD that inherit from LibraryItem. Add additional attributes like num_pages for Book, issue_number
+for Magazine, and duration for DVD. Each subclass should have a method to display its specific details.
+
+7. Create a base class Electronics with attributes brand and price. Then, create a subclass Phone that
+inherits from Electronics and adds additional attributes like model and storage. Write a method in Phone
+that displays all details, including brand, price, model, and storage.
+
+8. Create a base class Employee with attributes name and basic_salary, and a method calculate_salary()
+that returns the basic salary. Create a subclass FullTimeEmployee that adds allowances, and
+PartTimeEmployee that deducts taxes. Override calculate_salary() in both subclasses to account for these
+adjustments.
+
+9. Create a base class Person with attributes name and age. Then, create subclasses Teacher and Student
+that inherit from Person. Add additional attributes for Teacher like subject and salary, and for Student
+ like grade and student_id. Add methods in each subclass to display the specific details.
+
+10. Create a base class Sport with a method play() that prints a general message, like "Playing a sport."
+ Create subclasses Football, Basketball, and Tennis, each with an overridden play() method describing
+ their specific gameplay actions (e.g., "Kicking the ball" for Football).

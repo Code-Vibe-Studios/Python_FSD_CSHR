@@ -269,3 +269,48 @@ Looping through Dictionaries:
 
 Classes and OOPS:
 ---------------------------------
+OOP -> Object Oriented Programming
+Class -> Design. A class is a blueprint or template for creating objects. It contains properties(variables/ attributes)
+and behaviours(methods)
+
+Function & Method: F & M both are same. it is a called method only when it is inside a class
+Constructor: it is a special method and it is denoted by __init__. When the object is created
+constructor is called automatically.
+
+Object: Is an instance of a class. When a class is defined, no memory or storage is allocated until
+a object is created for that class. Each object will have unique attributes.
+
+Syntax:
+    objectName = ClassName()   #object without attributes in constructor
+    obj = Class(att1,att2..)   #object with attributes in constructor
+
+OOPS:
+1. Inheritance -> A child class getting properties of parent class
+2. Polymorphism -> One object is having many forms
+3. Abstraction -> Showing the necessary data and hiding the implementation
+4. Encapsulation -> Combing everything into a single entity
+
+Inheritance -> It allows a class to inherit properties and behaviours from another class.
+
+Base class or Parent class -> the class whose properties and methods are inherited by another class
+Derived class or child class -> the class that inherits the properties and methods of another class
+
+Syntax:
+
+    class ParentClass:
+        pass
+
+    class ChildClass(ParentClass):
+        pass
+
+Types of inheritance:
+
+1. Single Inheritance: A child class inherits from one parent class.
+2. Multiple Inheritance: A child class inherits from more than one parent class.
+3. Multilevel Inheritance: This involves a chain of inheritance.
+
+Benefits:
+
+1. Code Reusability
+2. Modularity : Enables organising code logically
+3. Extensibility: Easily extend classes without modifying existing code
