@@ -314,3 +314,49 @@ Benefits:
 1. Code Reusability
 2. Modularity : Enables organising code logically
 3. Extensibility: Easily extend classes without modifying existing code
+
+Polymorphism:
+    Polymorphism allows objects of different classes to be treated as objects of a common
+    superclass.
+
+    Method Overriding: A method in a subclass that already exists in the parent class.
+
+Abstraction:
+    It is the concept of hiding complex implementation details and showing only the
+    essential features of an object.
+
+    Python package - abc -> abstract base class
+
+    Abstract class: class is a class that cannot be instantiated directly and usually contains
+    one or more abstract methods
+
+    Abstract method: a method defined in an abstract class but does not have any implementation
+    in the base class. Subclasses of the abstract class must override these methods.
+
+Real time Example:
+    We are creating a payment processing system. we could have an abstract class
+    PaymentProcessor with an abstract method process_payment() and subclasses like
+    CreditCardProcessor, PaypalProcessor, BankTransferProcessor implementing process_payment()
+
+Modules and Libraries
+    helps organise code by diving it into manageable sections
+
+
+File Handling in Python
+    Files in the system
+
+    1. Opening a File
+        open() -> r, w, a, r+(read and write)
+        w -> it will delete all contents of the file and write a new line
+    2. Reading a file
+        read() -> read the entire content
+        readline() -> read one line at a time
+        readlines() -> read all lines and return in a list
+
+
+Advanced Functions
+ - Lambda Functions
+ - Map, Filter, Reduce
+- List Comprehensions
+- Error Handling
+ - Try, Except, Finally
