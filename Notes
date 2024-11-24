@@ -356,7 +356,79 @@ File Handling in Python
 
 Advanced Functions
  - Lambda Functions
+    A small, anonymous function defined using the lambda keyword.
+    def keyword
+
+    Syntax:
+        lambda parameters:expression
+
+    Characteristics:
+        1. Anonymous: do not have a name
+        2. Single Expression: contains single expression, which is evaluated and returned.
+        3. Inline use: commonly used as an argument to higher-order functions like map(), filter()..etc
+
  - Map, Filter, Reduce
+    Map
+        map() applies a function to each item in an iterable(like a list) and returns a map object
+        which can be converted to a list, tuple ..etc
+
+        Syntax:
+            map(function, iterable)
+
+        Used: Transformation
+
+    Filter
+        filter() filtering elements in an iterable based a function that returns true or false
+
+        Syntax:
+            filter(function, iterable)
+
+        Used:
+            Conditional filtering
+
+    Reduce
+        reduce() applies a function cumulatively to the items of an iterable.
+
+        Syntax:
+            from functools import reduce
+            reduce(function, iterable)
+
+        Used:
+            Aggregation(sum, product..etc)
+
 - List Comprehensions
-- Error Handling
- - Try, Except, Finally
+    It provides a concise way to create lists
+
+    Syntax:
+        newList = [expression for item in iterable if condition]
+
+    1. Create a list
+    2. Filter elements
+    3. Transform and filter
+    4. String Transformation
+
+
+- Error Handling or Exception Handling
+    Types of Errors:
+        Compile Time Error
+        Run Time Error
+    Exception -> Errors detected during the execution
+    Common Errors:
+        1. ZeroDivisionError
+        2. TypeError
+        3. ValueError
+        4. FileNotFoundError
+
+    Syntax:
+        try:
+            ...
+        except ExceptionType:
+            ...
+        else:
+            ...
+        finally:
+            ...
+
+
+    Custom Exception:
+        create your own exception class

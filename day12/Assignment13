@@ -1,0 +1,4 @@
+1. Write a program that asks the user for two numbers and divides them, handling ZeroDivisionError and ValueError.
+2. Implement a program to read a file and handle FileNotFoundError.
+3. Create a custom exception NegativeNumberError and raise it if the user enters a negative number.
+4. Write a program to open a file, read its contents, and ensure the file is closed even if an exception occurs.
