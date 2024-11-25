@@ -1,2 +1,13 @@
 1. Project Overview
-    1. User actions - authentication,checking balance, depositing money, withdraw money, view transactions
+    1. User actions - authentication,checking balance, depositing money,
+     withdraw money, view transactions
+
+Design:
+1. main() -> program starts
+2. verify pin
+    1. pin correct -> menu()
+    2. incorrect pin -> give 3 chances to enter correct pin
+    3. exit the program if 3 chances are completed
+3. menu()
+    1. ask choice
+    2. every choice will have a separate function
