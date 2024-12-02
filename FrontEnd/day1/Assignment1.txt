@@ -1,0 +1,18 @@
+1. Create a Simple Webpage
+    Use the basic HTML structure.
+    Add a title, headings, paragraphs, and an image.
+    Include a hyperlink to another webpage.
+
+
+2. Create a List of Your Favorite Movies
+
+    Use an unordered list for genres.
+    Use an ordered list for movies under each genre.
+
+
+3. Add an Image and Caption
+
+    Include an image of your choice with an appropriate description using <img> and <p> tags.
+
+4. Include Navigation Links
+    Create a navigation bar with links to "Home," "About," and "Contact" sections.
