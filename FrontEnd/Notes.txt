@@ -23,3 +23,33 @@ Metadata -> data of data
 5. List Tag
     1. Ordered List
     2. Unordered List
+
+Day 2 -> HTML Forms and Semantic elements
+
+Form:
+
+<form>
+
+</form>
+
+<input>
+<label></label>
+1. text input 
+2. password input
+3. email
+4. radio buttons
+5. number
+6. checkboxes
+7. dropdown menu
+
+
+Semantic Elements:
+
+Semantic elements clearly define their purpose, improve readability and accessibility
+
+1. Header  -> <header>   </header> -> Headings of the page
+2. Footer -> <footer>    </footer> -> End info
+3. Main  -> <main> </main>         -> Content of the page
+4. Aside -> <aside> </aside>       -> sidebar or advertisement
+5. Article -> <article> </article> -> independent content which not related to the website (blog post, news letter, news article...)
+6. Section -> <section> </section> -> grouped content

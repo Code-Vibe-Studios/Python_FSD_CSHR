@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Form application</h1>
+    </header>
+    <form>
+        <label for="username">Username: </label>
+        <input type="text" name="username"><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password"><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email"><br>
+        <label for="age">Age: </label>
+        <input type="number" name="age" min="1" max="180"><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female<br>
+        <label for="hobbies">Hobbies: </label>
+        <input type="checkbox" name="hobbies" value="reading">Reading
+        <input type="checkbox" name="hobbies" value="writing">Writing <br>
+        <label for="country">Country: </label>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+        </select><br>
+        <label for="comments">Comments: </label>
+        <textarea name="comments" rows="4" cols="25"></textarea><br>
+        <label for="resume">Resume: </label>
+        <input type="file" name="resume"><br>
+        <label for="dob">DOB: </label>
+        <input type="date" name="dob"><br>
+        <button type="submit">Accept</button>
+    </form>
+    <footer>
+        <p>&copy; 2023 HTML Form Application. All rights reserved.</p>
+    </footer>
+</body>
+</html>
