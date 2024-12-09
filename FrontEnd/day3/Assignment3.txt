@@ -1,0 +1,4 @@
+1. Create a styled webpage -> Using internal CSS to style heading, paragraph and links
+2. Use Different Selector -> class, ID, grouping
+3. Build a simple form and style the form using CSS
+4. link external CSS to the html file and create a basic web layout

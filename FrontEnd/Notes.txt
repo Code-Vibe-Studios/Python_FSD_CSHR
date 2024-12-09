@@ -53,3 +53,51 @@ Semantic elements clearly define their purpose, improve readability and accessib
 4. Aside -> <aside> </aside>       -> sidebar or advertisement
 5. Article -> <article> </article> -> independent content which not related to the website (blog post, news letter, news article...)
 6. Section -> <section> </section> -> grouped content
+
+
+Day 3 -> CSS Introduction
+
+CSS -> Cascading Style Sheets
+
+Why Use CSS?
+1. Separate content(HTML) from design
+2. Add style to HTML elements -> more visually appealing
+3. Enables responsive design for different screen sizes
+
+Types of CSS:
+
+1. Inline CSS -> inline style attributes
+
+    <p style="color:blue; font-size: 20px;">This is a CSS Class.</p>
+
+2. Internal CSS -> <style> tag in the <head> section
+3. External CSS -> <link> tag in the <head> section
+
+
+
+CSS Syntax:
+
+Selector -> The HTML Element to style
+Property -> The aspect of the element to change (eg: color, font size, etc.)
+Value -> The value to apply to the property
+
+
+selector{
+    property: value;
+}
+
+Selectors in CSS:
+
+1. universal selector (*)
+2. Element selector
+3. Class selector (.className)
+4. ID selector (#idName)
+
+
+
+CSS Property:
+
+1. Margins and Paddings
+2. Border
+
+Box Model -> Margin, border, padding, content
