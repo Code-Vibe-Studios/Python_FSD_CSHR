@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation - Rotating Loader</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #1e272e;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .loader {
+      width: 100px;
+      height: 100px;
+      border: 10px solid transparent;
+      border-top: 10px solid #74b9ff;
+      border-radius: 50%;
+      animation: spin 1.5s linear infinite, color-change 6s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes color-change {
+      0% {
+        border-top-color: #74b9ff;
+      }
+      25% {
+        border-top-color: #55efc4;
+      }
+      50% {
+        border-top-color: #ffeaa7;
+      }
+      75% {
+        border-top-color: #fd79a8;
+      }
+      100% {
+        border-top-color: #74b9ff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loader"></div>
+</body>
+</html>

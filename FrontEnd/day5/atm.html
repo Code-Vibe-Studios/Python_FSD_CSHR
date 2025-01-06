@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Project</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .atm{
+            background: #2c3e50;
+            color: #ecf0f1;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .atm-screen{
+            background: #34495e;
+            border-radius: 10px;
+            height: 100px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ecf0f1;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .atm-keypad{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .atm-key{
+            background: #2980b9;
+            border: none;
+            border-radius: 5px;
+            color: #ecf0f1;
+            padding: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .atm-key:hover{
+            background: #3498db;
+        }
+
+        .action-buttons{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .action{
+            background: #27ae60;
+            color: #ecf0f1;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .action:hover{
+            background: #2ecc71;
+        }
+
+        .cancel{
+            background: #c0392b;
+        }
+
+        .cancel:hover{
+            background: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="atm">
+        <div class="atm-screen">
+            Welcome! Please enter your PIN
+        </div>
+        <div class="atm-keypad">
+            <button class="atm-key">1</button>
+            <button class="atm-key">2</button>
+            <button class="atm-key">3</button>
+            <button class="atm-key">4</button>
+            <button class="atm-key">5</button>
+            <button class="atm-key">6</button>
+            <button class="atm-key">7</button>
+            <button class="atm-key">8</button>
+            <button class="atm-key">9</button>
+            <button class="atm-key">*</button>
+            <button class="atm-key">0</button>
+            <button class="atm-key">#</button>
+        </div>
+        <div class="action-buttons">
+            <button class="action">Enter</button>
+            <button class="action cancel">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

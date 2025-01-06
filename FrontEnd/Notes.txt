@@ -97,7 +97,19 @@ Selectors in CSS:
 
 CSS Property:
 
-1. Margins and Paddings
-2. Border
+1. Colors:
+    1. test color -> color
+    2. background color -> background-color
+
+2. Font:
+    1. font size -> font-size
+    2. font family -> font-family
+    3. font weight -> font-weight
+
+3. Border
+
+
+
+4. Margins and Paddings
 
 Box Model -> Margin, border, padding, content
