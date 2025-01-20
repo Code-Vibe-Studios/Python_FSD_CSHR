@@ -1,0 +1,3 @@
+1. Display "Hello World!" in the alert box.
+2. Display Welcome username, take username as input with prompt and display the result in alert box.
+3. Check if the number is +ve, -ve or 0 and print the output in the console.

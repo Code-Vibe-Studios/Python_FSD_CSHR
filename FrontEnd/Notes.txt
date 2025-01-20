@@ -113,3 +113,61 @@ CSS Property:
 4. Margins and Paddings
 
 Box Model -> Margin, border, padding, content
+
+
+JavaScript:
+================
+1. Lightweight
+2. Interpreted programming Language
+3. Used for Dynamic Web content and interactive applications
+4. Client-side scripting language
+5. Integrated with HTML and CSS
+
+
+How to add JS to an HTML file?
+--------------------------------
+1. Inline: if JS is written inside HTML tags
+2. Internal: inside the head tag <script> </script>
+3. External:adding external js file
+
+
+Basics JS:
+
+1. Variables
+    Containers for storing data values
+    var x = 5; // can be updated and redeclared
+    let y = 10; // can be updated but not redeclared
+    const pi = 3.14; // cannot be updated or redeclared
+
+2. Data Types:
+    1. Primitive
+        String, number, boolean, undefined, null
+    2. non-Primitive
+        Object-json {
+            "name": "John",
+            "age": 30
+        }, Array, Function
+
+3. Operators:
+    1. Arithmetic: +, -, \*, /, %
+    2. Assignment: =, +=, -=, *=, /=, %=
+    3. Comparison: ==, !=, >, <, >=, <=, ===, !==
+    4. Logical: &&, ||, !
+
+
+4. Basic Input/Output:
+    1. prompt()
+    2. alert()
+    3. console.log()
+
+
+5. Control Statements:
+    1. If Statements:
+
+        if(condition){
+            
+        }
+
+    2. Ternary Operators:
+        
+        condition ? value_if_true : value_if_false
