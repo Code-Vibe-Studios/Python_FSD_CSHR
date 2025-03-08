@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        #color-box{
+            width: 200px;
+            height: 200px;
+            background-color: lightgrey;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Background Changer</h2>
+    <div id="color-box"></div>
+    <button id="change-color-button">Change Color</button>
+    <script>
+        document.getElementById("change-color-button").addEventListener("click", function() {
+            var color = getRandomColor();
+            document.getElementById("color-box").style.backgroundColor = color;
+        });
+        function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+</html>

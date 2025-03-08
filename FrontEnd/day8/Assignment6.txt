@@ -1,0 +1,4 @@
+1. Create an object representing a book with properties like title, author, and publication year.
+2. Create a button that, when clicked, changes the text color of the book title to red.
+3. Make a list where users can add and remove books.
+4. Create a toggle button that, when clicked, changes the background color of the page.

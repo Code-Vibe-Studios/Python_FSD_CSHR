@@ -171,3 +171,42 @@ Basics JS:
     2. Ternary Operators:
         
         condition ? value_if_true : value_if_false
+
+
+Functions, Loops and Arrays in JS
+
+Function in JS:
+
+    Syntax:
+
+    function functionName(parameters){
+        // code to be executed
+    }
+
+Loops in JS:
+
+1. For
+2. While
+3. Do-While
+4. For...of Loop
+5. For...in Loop
+
+
+JS Objects & DOM Manipulation
+
+1. JS Objects:
+
+JS Object store multiple properties and methods in key-value pairs.
+
+ Syntax:
+
+ var objectName = {
+     key1: value1,
+     key2: value2,
+     key3: value3,
+     key4: value4
+ }
+
+2. DOM Manipulation:
+
+The Document Object Model (DOM) is the standard interface for accessing and manipulating HTML and XML documents.

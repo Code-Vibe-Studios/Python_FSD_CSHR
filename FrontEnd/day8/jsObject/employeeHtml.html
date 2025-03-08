@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Object</title>
+    <link rel="stylesheet" href="employee.css">
+    
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <p id="employee-details"></p>
+    <h2>Change text example</h2>
+    <p id="change-text-example">This is the original text</p>
+    <button id="change-text-button">Change text</button>
+    <script>
+            document.getElementById("change-text-button").addEventListener("click", function() {
+                document.getElementById("change-text-example").innerHTML = "Text changed";
+});
+    </script>
+</body>
+</html>

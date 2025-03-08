@@ -1,0 +1,4 @@
+1. write a function to whether a number is even or odd
+2. write a loop to print all numbers divisible by 3 between 1 to 100
+3. create an array of numbers and find the sum of all the numbers.
+4. write a function to find the factorial of a number.
