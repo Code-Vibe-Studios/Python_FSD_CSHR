@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing Function</title>
+</head>
+<body>
+    <p id="message">Welcome JS Class</p>
+    <p id="timer">10</p>
+    <script>
+        let timeoutid = setTimeout(() => {
+            document.getElementById("message").textContent = 
+            "Hello World!";
+        }, 5000);
+
+        // clearTimeout(timeoutid);
+
+        let count = 10;
+        let timer = setInterval(() => {
+            count--;
+            document.getElementById("timer").textContent = count;
+            if (count === 0){
+                clearInterval(timer);
+                alert("Time's up!");
+            }
+        },1000);
+    </script>
+</body>
+</html>

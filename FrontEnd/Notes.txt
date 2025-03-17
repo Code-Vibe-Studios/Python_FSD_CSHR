@@ -210,3 +210,32 @@ JS Object store multiple properties and methods in key-value pairs.
 2. DOM Manipulation:
 
 The Document Object Model (DOM) is the standard interface for accessing and manipulating HTML and XML documents.
+
+
+JS Timing Functions:
+
+Functions used to schedule execution of code after a delay or at intervals.
+
+1. setTimeout() -> schedules a function to run after a specified delay
+
+2. clearTimeout() -> cancels a scheduled function
+
+3. setInterval() -> schedules a function to run at regular intervals
+
+4. clearInterval() -> cancels a scheduled function
+
+
+Local Storage & Session Storage:
+
+Web Storage APIs are used to store and retrieve data in the browser's local storage or session storage.
+
+1. Data Retention
+    Local -> Persistent (even after closing the browser)
+    Session -> Only for the session(deleted after closing the tab)
+
+2. Capacity
+    Local(domain) & Session(session) -> 5MB
+
+3. accessibility
+    Local -> Available across all pages of the website
+    Session -> Available only on the current tab

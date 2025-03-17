@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Changer</title>
+</head>
+<body>
+    <h2>Choose Theme</h2>
+    <button id="dark-mode">Dark Mode</button>
+    <button id="light-mode">Light Mode</button>
+    <script>
+        document.getElementById("dark-mode").addEventListener("click", function() {
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+            localStorage.setItem("theme", "dark");
+        });
+
+        document.getElementById("light-mode").addEventListener("click", function() {
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "Red";
+            localStorage.setItem("theme", "light");
+        });
+
+
+        window.onload = function() {
+            let theme = localStorage.getItem("theme");
+            if(theme === "dark"){
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+            }
+        }
+    </script>
+</body>
+</html>

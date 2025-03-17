@@ -1,0 +1,1 @@
+1. Create a register page and when clicked on the register button store the data in the local storage.
