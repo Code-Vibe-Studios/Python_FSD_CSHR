@@ -1,0 +1,46 @@
+Backend:
+    URL -> address
+    API -> Application programming interface
+        data will store in the form of JSON
+        {
+        key:value,
+        ,
+        }
+
+Flask:
+    Flask is a micro web framework for python
+    It is lightweight and does not require specific libraries to build the application
+    WSGI standard and Jinja2 templating engines
+
+Flask Templates, Jinja2, Forms and User Input
+Goal: Learn how to use templates, pass date and handle form submissions in Flask
+1. Flask template
+2. Jinja2 for dynamic HTML
+3. Handling HTML Forms with Flask
+4. Processing user input
+
+1. Flask Template
+
+render_template()
+
+Folder Structure
+    /flask_app
+        /templates
+            xyz.html
+        app.py
+
+when you visit 127.0.0.1:5000/      -> home page -> index.html
+when you visit 127.0.0.1:5000/about      -> about page -> about.html
+
+
+
+Using jinja2 for Dynamic Data
+-------------------------------------------
+
+Handling forms in Flask
+
+CRUD Operation
+Create   -> POST
+Retrieve -> GET
+Update   -> PUT
+Delete   -> DELETE
