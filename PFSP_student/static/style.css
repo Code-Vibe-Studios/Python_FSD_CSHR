@@ -1,0 +1,19 @@
+body{
+    font-family: Arial;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+form input{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -44,3 +44,31 @@ Create   -> POST
 Retrieve -> GET
 Update   -> PUT
 Delete   -> DELETE
+
+Day3:
+
+1. Flask Sessions:
+    Session: A session stores user data across multiple requests
+    Data is saved server-side but the sessionID is stored in the user's browser.
+
+
+Day4:
+
+Building an REST API with flask
+
+pip install flask flask-restful flask-sqlalchemy -> run on terminal
+
+
+
+Day 5:
+Full Stack Project -> Student Registration System
+HTML, CSS, JS -> Frontend
+Flask -> Backend
+Mysql -> Database
+
+Features:
+1. Register a new student
+2. View all the students
+3. Simple Validation
+4. Stored in Mysql DB
+
